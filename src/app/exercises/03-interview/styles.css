@@ -74,3 +74,9 @@ aside img {
   border-radius: 2px 2px 8px 8px;
   aspect-ratio: 1 / 1;
 }
+
+@media screen and (max-width: 500px) {
+  aside {
+    display: none;
+  }
+}
