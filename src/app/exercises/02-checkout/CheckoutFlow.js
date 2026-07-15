@@ -47,7 +47,7 @@ function CheckoutFlow({ readyCart, items, taxRate, handleDeleteItem }) {
     );
   } else {
     return (
-      <div className="checkout-flow">
+      <div className="checkout-flow empty">
         <Spinner />
       </div>
     );
